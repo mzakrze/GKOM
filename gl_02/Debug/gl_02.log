@@ -1,0 +1,29 @@
+﻿Build started 2017-01-05 20:48:19.
+     1>Project "D:\elka\GKOM\projekt GKOM\gl_02\gl_02.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt gl_02.cpp
+         gl_02.cpp
+     1>gl_02.cpp(168): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gl_02.cpp(408): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>gl_02.cpp(409): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gl_02.cpp(412): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gl_02.cpp(447): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gl_02.cpp(448): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gl_02.cpp(452): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gl_02.cpp(453): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gl_02.cpp(454): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gl_02.cpp(455): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>gl_02.cpp(457): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>gl_02.cpp(480): warning C4244: '-=' : conversion from 'double' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\elka\GKOM\projekt GKOM\Debug\gl_02.exe" /INCREMENTAL:NO /NOLOGO opengl32.lib glfw3.lib glew32s.lib soil.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:msvcrt.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\elka\GKOM\projekt GKOM\Debug\gl_02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\elka\GKOM\projekt GKOM\Debug\gl_02.lib" /MACHINE:X86 Debug\gl_02.obj
+         Debug\shprogram.obj
+         soil.lib(SOIL.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+         Generating code
+         Finished generating code
+         gl_02.vcxproj -> D:\elka\GKOM\projekt GKOM\Debug\gl_02.exe
+     1>Done Building Project "D:\elka\GKOM\projekt GKOM\gl_02\gl_02.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.68
